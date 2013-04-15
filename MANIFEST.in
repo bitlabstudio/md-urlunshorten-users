@@ -1,0 +1,8 @@
+include AUTHORS
+include LICENSE
+include DESCRIPTION
+include CHANGELOG.txt
+include README.md
+graft md_urlunshorten_users
+prune md_urlunshorten_users/tests/coverage
+recursive-exclude md_urlunshorten_users *.orig *.pyc
